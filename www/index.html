@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Circle Of Fifths</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #controls {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+
+    <div id="controls">
+      <select name="polygon" id="polygon">
+        <option value="1">monogon</option>
+        <option value="2">digon</option>
+        <option value="3" selected>triangle</option>
+        <option value="4">square</option>
+        <option value="5">pentagon</option>
+        <option value="6">hexagon</option>
+        <option value="7">heptagon</option>
+        <option value="8">octagon</option>
+        <option value="9">nonagon</option>
+        <option value="10">decagon</option>
+      </select>
+
+      <select name="speed" id="speed">
+        <option value="-2.0">-2.0</option>
+        <option value="-1.5">-1.5</option>
+        <option value="-1.0">-1.0</option>
+        <option value="-0.5">-0.5</option>
+        <option value="-0.25">-0.25</option>
+        <option value="0.0">0.0</option>
+        <option value="0.25">0.25</option>
+        <option value="0.5">0.5</option>
+        <option value="1.0" selected>1.0</option>
+        <option value="1.5">1.5</option>
+        <option value="2.0">2.0</option>
+      </select>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
