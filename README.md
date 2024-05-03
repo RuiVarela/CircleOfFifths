@@ -1,5 +1,5 @@
 # Circle Of Fifths
-A simple interactive [demo](cof.demanda.pt/) of the circle of fifths, where you can explore how a regular polygon can play notes.
+A simple interactive [demo](https://cof.demanda.pt/) of the circle of fifths, where you can explore how a regular polygon can play notes.
 
 
 https://github.com/RuiVarela/CircleOfFifths/assets/11543973/f7c3c564-addc-4e93-9d5b-bdb3b82c5f63
